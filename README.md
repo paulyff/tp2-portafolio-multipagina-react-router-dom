@@ -1,50 +1,38 @@
-# Mi Portfolio en React
+# Mi Portfolio Multipágina con React Router DOM
 
-Portfolio personal desarrollado como Trabajo Práctico N.º 1 de la materia Programación IV.
+Trabajo Práctico N.º 2 de Programación IV, UTN - Facultad Regional Tucumán.
 
 ## Estudiante
 
 **Ana Paula Franco**
 
-Estudiante de la Tecnicatura Universitaria en Programación de la UTN-FRT.
+Comisión: 5
 
 ## Descripción
 
-Este proyecto consiste en un portfolio personal desarrollado con React y Vite.
+Portfolio personal desarrollado con React y Vite, continuación del TP1. Es una aplicación multipágina con un menú lateral que permanece visible y un área de contenido que cambia según la ruta, usando React Router DOM.
 
-La aplicación presenta información sobre mi perfil, tecnologías y herramientas que utilizo, proyectos realizados y medios de contacto.
-
-El proyecto fue desarrollado utilizando componentes reutilizables, props, renderizado dinámico, eventos, estado y renderizado condicional.
+Páginas: Inicio (/), Sobre mí (/about), Habilidades (/skills), Proyectos (/projects) y Contacto (/contact).
 
 ## Tecnologías utilizadas
 
 - React
-- JavaScript
-- HTML
-- CSS
 - Vite
-- Git
-- GitHub
-
-## Funcionalidades
-
-- Presentación personal.
-- Sección "Sobre mí".
-- Listado de tecnologías y herramientas.
-- Renderizado dinámico de proyectos.
-- Botón "Ver más / Ver menos" para mostrar información adicional de cada proyecto.
-- Sección de contacto.
-- Diseño responsive básico.
+- React Router DOM
+- JavaScript
+- JSX
+- CSS
+- Git y GitHub
 
 ## Instalación
 
 Clonar el repositorio:
 
-git clone https://github.com/paulyff/tp1-react-portafolio-franco-ana.git
+git clone https://github.com/paulyff/tp2-portafolio-multipagina-react-router-dom.git
 
 Ingresar a la carpeta del proyecto:
 
-cd tp1-react-portafolio-franco-ana
+cd tp2-portafolio-multipagina-react-router-dom
 
 Instalar las dependencias:
 
@@ -52,12 +40,10 @@ npm install
 
 ## Ejecutar el proyecto
 
-Para iniciar el proyecto localmente:
-
 npm run dev
 
 Luego abrir en el navegador la dirección indicada por Vite.
 
 ## Repositorio
 
-https://github.com/paulyff/tp1-react-portafolio-franco-ana
+https://github.com/paulyff/tp2-portafolio-multipagina-react-router-dom.git
