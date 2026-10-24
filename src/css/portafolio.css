@@ -11,27 +11,60 @@ body {
 }
 
 /* Header */
-.header {
-  background-color: #0f3460;
-  padding: 15px 30px;
+/* Layout: aside 30% + main 70% */
+.layout {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
+  min-height: 100vh;
 }
-.header ul {
+
+.sidebar {
+  width: 30%;
+  box-sizing: border-box;
+  background-color: #0f3460;
+  border-right: 2px solid #4a90d9;
+  padding: 30px 20px;
+}
+/* sidebar */
+.sidebar ul {
   list-style: none;
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
   padding: 0;
 }
-.header a {
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.enlace {
+  display: block;
   color: white;
   text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 4px;
 }
-.header a:hover {
+.enlace:hover {
   color: #4a90d9;
+}
+.enlace.activo {
+  background-color: #4a90d9;
+  color: white;
+}
+
+.contenido {
+  width: 70%;
+}
+
+/* Pantallas chicas: menú arriba, contenido abajo */
+@media (max-width: 768px) {
+  .layout {
+    flex-direction: column;
+  }
+  .sidebar,
+  .contenido {
+    width: 100%;
+  }
+  .sidebar {
+    border-right: none;
+    border-bottom: 2px solid #4a90d9;
+  }
 }
 
 /* Hero */
