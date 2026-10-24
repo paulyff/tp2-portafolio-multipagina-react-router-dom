@@ -18,7 +18,7 @@ const App = () => {
         <main className="contenido">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About texto={datos.sobreMi} />} />
+            <Route path="/about" element={<About sobreMi={datos.sobreMi} />} />
             <Route
               path="/skills"
               element={<Skills tecnologias={datos.tecnologias} />}

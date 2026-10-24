@@ -7,10 +7,20 @@ const datos = {
       "Me apasiona el desarrollo de software y la resolución de problemas. Mi mayor interés está en el Backend y el diseño de Bases de Datos, y disfruto del trabajo en equipo para transformar ideas en soluciones reales.",
   },
 
-  enlaces: ["Inicio", "Sobre mí", "Tecnologías", "Proyectos", "Contacto"],
-
-  sobreMi:
-    "Soy estudiante de la Tecnicatura Universitaria en Programación en la UTN y me interesa la resolución de problemas lógicos. Tengo bases sólidas en desarrollo Full Stack, pero lo que más me gusta es construir sistemas eficientes, estructurados y escalables, tanto en el código como en la lógica de los datos.",
+  sobreMi: {
+    presentacion:
+      "Soy estudiante de la Tecnicatura Universitaria en Programación en la UTN y me interesa la resolución de problemas lógicos. Tengo bases sólidas en desarrollo Full Stack, pero lo que más me gusta es construir sistemas eficientes, estructurados y escalables, tanto en el código como en la lógica de los datos.",
+    formacion:
+      "Tecnicatura Universitaria en Programación - UTN, Facultad Regional Tucumán.",
+    intereses: [
+      "Backend",
+      "Diseño de Bases de Datos",
+      "Resolución de problemas",
+      "Trabajo en equipo",
+    ],
+    objetivos:
+      "Mi objetivo es terminar la tecnicatura y desarrollarme como programadora, especializándome en Backend y en el diseño de bases de datos. Todavía estoy definiendo si prefiero trabajar en una empresa de software, donde pueda crecer junto a un equipo, o de forma independiente, desarrollando sistemas a medida. En cualquier caso, quiero seguir aprendiendo y construir soluciones eficientes y escalables.",
+  },
 
   tecnologias: [
     "C#",
@@ -52,6 +62,7 @@ const datos = {
         "Pensado para una empresa de transporte privado: reemplaza planillas y papeles por una base de datos relacional.",
       repositorio: null,
     },
+
     {
       id: 3,
       titulo: "Lista de Tareas",
