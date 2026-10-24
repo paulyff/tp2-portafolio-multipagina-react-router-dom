@@ -52,7 +52,20 @@ const datos = {
         "Pensado para una empresa de transporte privado: reemplaza planillas y papeles por una base de datos relacional.",
       repositorio: null,
     },
+    {
+      id: 3,
+      titulo: "Lista de Tareas",
+      estado: "Ficticio",
+      descripcion:
+        "Aplicación web simple para anotar, marcar y eliminar tareas pendientes.",
+      tecnologias: ["React", "JavaScript", "CSS"],
+      rol: "Desarrollo individual",
+      detalle:
+        "Proyecto ficticio de práctica. Permite agregar tareas a una lista y marcarlas como completadas, usando componentes, props y useState.",
+      repositorio: null,
+    },
   ],
+
   contactos: [
     {
       nombre: "GitHub",
