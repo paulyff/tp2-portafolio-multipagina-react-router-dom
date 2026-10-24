@@ -1,11 +1,11 @@
 import { useState } from "react";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
-import About from "../components/About";
-import Skills from "../components/Skills";
-import Proyects from "../components/Proyects";
+import About from "./About";
+import Skills from "./Skills";
+import Proyects from "./Proyects";
 import datosIniciales from "../data/datos";
-import Contact from "../components/Contact";
+import Contact from "./Contact";
 import Footer from "../components/Footer";
 
 const Home = () => {
